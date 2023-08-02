@@ -25,26 +25,26 @@ public class App {
             
      }
 
-    private static void pollObject(Queen object){
+    private static void pollObject(HoneyBee object){
 
         output(object.doYourJob());
         output(object.fly());
         output("---------------------");
     }
 
-    private static void pollObject(Worker object){
+    // private static void pollObject(Worker object){
 
-        output(object.doYourJob());
-        output(object.fly());
-        output("---------------------");
-    }
+    //     output(object.doYourJob());
+    //     output(object.fly());
+    //     output("---------------------");
+    // }
 
-    private static void pollObject(Drone object){
+    // private static void pollObject(Drone object){
 
-        output(object.doYourJob());
-        output(object.fly());
-        output("---------------------");
-    }
+    //     output(object.doYourJob());
+    //     output(object.fly());
+    //     output("---------------------");
+    // }
    
    
     private static void output(String outputStr) {
