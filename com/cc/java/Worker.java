@@ -1,5 +1,5 @@
 package com.cc.java;
 
-public class Worker {
+public class Worker extends HoneyBee{
     
 }

@@ -1,5 +1,5 @@
 package com.cc.java;
 
-public class Drone {
+public class Drone extends HoneyBee{
     
 }
