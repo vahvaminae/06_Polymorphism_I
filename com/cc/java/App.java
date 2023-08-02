@@ -8,21 +8,43 @@ public class App {
         Worker worker = new Worker();
         Drone drone = new Drone();
 
-        output(queen.doYourJob());
-        output(worker.doYourJob());
-        output(drone.doYourJob());
+        // output(queen.doYourJob());
+        // output(worker.doYourJob());
+        // output(drone.doYourJob());
      
+        // output("---------------------");
+
+        // output(queen.fly());
+        // output(worker.fly());
+        // output(drone.fly());
+
+        pollObject(queen);
+        pollObject(worker);
+        pollObject(drone);
+
+            
+     }
+
+    private static void pollObject(Queen object){
+
+        output(object.doYourJob());
+        output(object.fly());
         output("---------------------");
-
-        output(queen.fly());
-        output(worker.fly());
-        output(drone.fly());
-
-
-
     }
 
-    
+    private static void pollObject(Worker object){
+
+        output(object.doYourJob());
+        output(object.fly());
+        output("---------------------");
+    }
+
+    private static void pollObject(Drone object){
+
+        output(object.doYourJob());
+        output(object.fly());
+        output("---------------------");
+    }
    
    
     private static void output(String outputStr) {
